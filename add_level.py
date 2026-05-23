@@ -274,7 +274,7 @@ def remove_record():
 def git_push():
     """Запушить изменения на GitHub"""
     print("\nПушу на GitHub...")
-    os.system('cmd /c "cd /d data\\.. & git add -A & git commit -m "Update list" & git push & git checkout production & git merge main --no-edit & git push & git checkout main"')
+    os.system('cmd /c "cd /d data\\.. & git add -A & git commit -m "Update list" & git push"')
     print("[+] Готово!")
 
 
